@@ -1,0 +1,40 @@
+@font-face {
+    font-family: MiFuente1;
+    src: url(../proyectos/coolvetica.otf) ;
+    font-weight:bold;
+}
+@font-face {
+    font-family: MiFuente2;
+    src: url(../proyectos/Roboto-Light.ttf);
+    font-weight:regular;
+}
+*{box-sizing: border-box;}
+
+body {
+text-align: center;
+}
+
+/*Sector con boton*/
+a {text-decoration: none;}
+p,button { font-size:40px;color: #04146c; font-family:miFuente2;}
+h1 { font-size: 120px; color: #0a2ff1; font-family:miFuente1;}
+button { background-color: #0a2ff1; color: white; border:3px solid #0a2ff1; display: block; margin:auto; padding:20px;margin-bottom:20px; cursor:pointer; }
+#boton { background-color: white; color: #04146c;}
+
+/*Paleta img*/
+p span { font-size: 20px; font-weight: 700;}
+#epigrafe {font-size: 20px;}
+#parrafo { font-weight: 300;font-size:32px;}
+#imagen { width: 30%;}
+main { display: flex; margin: auto; justify-content:center; align-items: center;}
+#herramienta { margin-right: 5px; width: 30%;}
+h2 {font-size: 80px; color: #0a2ff1; font-family:miFuente1;}
+
+/*Somos geniales Section*/
+#somos { font-size: 100px; color: #0a2ff1; font-family:miFuente1; line-height: 100px;}
+#usuarios {line-height:5px;}
+#box { display: flex; justify-content: space-evenly; margin: 50px;}
+.caja{ width: 25%; background-color: #eff2ff; padding: 1em;}
+div h3, div p, div h2 { font-size: 24px; color: #04146c; font-family: miFuente2;}
+div h3 { font-weight: 300; font-style: italic; font-family:miFuente2;}
+div h4 { font-weight:900; font-family:miFuente2; }
